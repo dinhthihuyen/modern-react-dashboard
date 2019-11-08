@@ -1,12 +1,11 @@
 import React from "react";
-import axios from "axios";
+import Main from "./containers/Main";
 
 class App extends React.Component {
-  
   render() {
     console.log('render');
     return (
-      <h1>Hello </h1>
+      <Main />
     );
   }
 }
